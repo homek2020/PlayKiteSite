@@ -1,0 +1,3 @@
+import PriceCard from '@/components/PriceCard';
+export const metadata = { title: "Kitesurfing Prices in Hurghada", description: "See Playkite pricing for lessons, courses, coaching, and equipment rental in Hurghada.", alternates: { canonical: "/prices" } };
+export default function Page(){const p=[['Discovery Lesson','from €60'],['Beginner Course','from €220'],['Full Course','from €390'],['Private Coaching','from €70/hour'],['Equipment Rental','on request']];return <main className='container-main section-pad'><h1 className='text-4xl font-extrabold text-deepBlue'>Kitesurfing Prices in Hurghada</h1><div className='mt-8 grid gap-4 md:grid-cols-3'>{p.map(([t,s])=><PriceCard key={t} title={t} price={s}/>)}</div></main>}

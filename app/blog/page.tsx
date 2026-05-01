@@ -1,0 +1,4 @@
+import Link from 'next/link';
+export const metadata = { title: "Playkite Blog", description: "Kitesurfing tips, travel advice, and learning guides for Hurghada and Egypt.", alternates: { canonical: "/blog" } };
+const posts=["Best Time for Kitesurfing in Hurghada","How Long Does It Take to Learn Kitesurfing?","Beginner Guide to Kitesurfing in Egypt","What to Bring for a Kite Trip to Hurghada","Kitesurfing Lessons vs Kite Rental","Why the Red Sea Is Great for Kiteboarding"];
+export default function Page(){return <main className='container-main section-pad'><h1 className='text-4xl font-extrabold text-deepBlue'>Blog</h1><div className='mt-8 space-y-4'>{posts.map((p,i)=><article key={p} className='rounded-xl border p-5'><h2 className='text-xl font-bold'>{p}</h2><p className='mt-2 text-slate-600'>SEO article placeholder for Playkite blog.</p><Link href='#' className='mt-2 inline-block text-deepBlue'>Read more →</Link></article>)}</div></main>}
