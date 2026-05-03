@@ -1,0 +1,2 @@
+export const metadata = { title: "About Playkite", description: "Meet the friendly Playkite team: professional instructors, safe methods, and Red Sea kitesurfing lifestyle.", alternates: { canonical: "/about" } };
+export default function Page(){return <main className='container-main section-pad'><h1 className='text-4xl font-extrabold text-deepBlue'>About Playkite</h1><p className='mt-4'>We are a friendly kite school in Hurghada focused on safe teaching, strong progress, and fun Red Sea sessions for every rider level.</p></main>}

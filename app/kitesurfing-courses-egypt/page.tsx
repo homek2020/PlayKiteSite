@@ -1,0 +1,3 @@
+import ServiceCard from '@/components/ServiceCard';
+export const metadata = { title: "Kitesurfing Courses in Egypt", description: "Structured kitesurfing courses in Egypt for discovery, beginner, full beginner, and advanced coaching.", alternates: { canonical: "/kitesurfing-courses-egypt" } };
+export default function Page(){const c=['Discovery Lesson','Beginner Course','Full Beginner Course','Advanced Coaching','Refresher Lesson','Private Lesson'];return <main className='container-main section-pad'><h1 className='text-4xl font-extrabold text-deepBlue'>Kitesurfing Courses in Egypt</h1><div className='mt-8 grid gap-4 md:grid-cols-3'>{c.map((x)=><ServiceCard key={x} title={x} text='Professional coaching tailored to your level in Hurghada.'/>)}</div></main>}
