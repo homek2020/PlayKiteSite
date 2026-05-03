@@ -7,7 +7,9 @@ const config: Config = {
       colors: {
         turquoise: "#1FC9C5",
         deepBlue: "#0A2A66",
-        sand: "#F4E8CC"
+        sand: "#F4E8CC",
+        sun: "#FFB84D",
+        coral: "#FF6B4A"
       }
     }
   },
